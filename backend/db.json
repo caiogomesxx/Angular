@@ -1,0 +1,32 @@
+{
+  "blocos": [
+    {
+      "id": 1,
+      "nome": "chiclete com banana",
+      "endereço": "rua abc"
+    }
+  ],
+  "copos": [
+    {
+      "id": 1,
+      "nome": "mega copo",
+      "cor": "azul",
+      "codigo": "001"
+    }
+  ],
+  "bebidas": [
+    {
+      "id": 1,
+      "nome": "vodka absolut",
+      "codigo": "0010"
+    }
+  ],
+  "comidas": [
+    {
+      "id": 1,
+      "nome": "macarrao",
+      "validade": " 08/05/2021",
+      "codigo": "00012"
+    }
+  ]
+}
