@@ -17,7 +17,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
-import { PaymentComponent } from './views/payment/payment.component'
+import { PaymentComponent } from './views/payment/payment.component';
+import { PaymentCreateComponent } from './components/payment/payment-create/payment-create.component'
+import { MatButtonModule} from '@angular/material/button';
+import { MatSnackBarModule} from '@angular/material/snack-bar';
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +30,8 @@ import { PaymentComponent } from './views/payment/payment.component'
     FooterComponent,
     NavComponent,
     HomeComponent,
-    PaymentComponent
+    PaymentComponent,
+    PaymentCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +40,10 @@ import { PaymentComponent } from './views/payment/payment.component'
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
